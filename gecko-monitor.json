@@ -1,0 +1,29 @@
+{
+    "holdings": {   
+        "quantum-resistant-ledger": 20,
+        "zcash": 0.05,
+        "neo": 0.25,
+        "bitcoin-cash": 0.01,
+	"nano": 1,
+	"bitcoin": 0.0002
+    },
+    "currency": "usd",
+    "allerts": {
+        "low": {
+	    "bitcoin": 51000,
+	    "quantum-resistant-ledger": 0.4,
+	    "zcash": 165,
+	    "neo": 40,
+	    "bitcoin-cash": 700,
+	    "nano": 7.0
+	},
+	"high": {
+	    "bitcoin": 52000,
+            "quantum-resistant-ledger": 0.45,
+            "zcash": 175,
+            "neo": 45,
+            "bitcoin-cash": 750,
+	    "nano": 8.0
+	}
+    }
+}
