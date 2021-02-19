@@ -17,6 +17,9 @@ else:
     base = 1.05
 price = cg.get_price(ids=coin, vs_currencies="btc")[coin]["btc"]
 sprice =  '{:.8f}'.format(price)
+print("COIN:", coin)
+print("SPREAD-BASE:", base)
+print()
 print("Make 6 equally sized buckets of $BTC")
 print(f"Buy {bcolors.OKGREEN}{coin}{bcolors.ENDC} at {bcolors.OKGREEN}{sprice}{bcolors.ENDC} with 3 of the six buckets.")
 for bucket in range(0,6):
